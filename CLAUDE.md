@@ -18,7 +18,9 @@ This repo (GitHub Pages, static, no build step)
    ├── style.css
    ├── app.js      -> fetch + poll + render
    ├── mock/       -> sample JSON for offline work
-   └── avatars/    -> optional player images (create the folder when needed)
+   └── assets/
+       ├── avatars/       -> optional player images (assets/avatars/<lowercase name>.png)
+       └── 2XKO_Cover.jpg -> page background image
 ```
 
 The site is read-only. All writes go through the admin page in Apps Script. Never put the admin password or any write logic in this repo: it's public.
@@ -76,7 +78,7 @@ If the JSON shape changes, it has to change in `apps-script/Code.gs` (`buildStat
 - `renderBracket()`: CSS grid, 4 columns by 2 rows. Upper bracket on row 1 (quarters, semis, upper final, grand final). Lower bracket on row 2 (rounds 1 to 3, lower final). The grand final sits above the lower final.
 - `drawLines()`: an SVG overlay drawn by measuring match positions, using the `FEEDS` list. Only winner-advances lines are drawn, not drops from upper to lower. It reruns on render, tab switch and resize; the bracket panel must be visible to measure.
 - `LOWER_COLS` shows LR2B above LR2A on purpose so the LR1 → LR2 lines don't cross.
-- Pills: name + avatar square. The avatar image is `avatars/<lowercase name>.png`; if it's missing, the player's initial shows instead.
+- Pills: name + avatar square. The avatar image is `assets/avatars/<lowercase name>.png`; if it's missing, the player's initial shows instead.
 
 ## Working on it
 
@@ -87,6 +89,8 @@ If the JSON shape changes, it has to change in `apps-script/Code.gs` (`buildStat
 ## Design
 
 The owner's sketch sets the look: white background, system fonts, black-bordered rounded player pills with an avatar on the right, green for winners, grey for completed/losing, square win/loss record chips, folder-style tabs. Keep it plain. Don't introduce the neo-brutalist style (hard offset shadows, Bungee/Sora fonts) from the owner's other projects.
+
+The page background is `assets/2XKO_Cover.jpg` (fixed, cover-sized). The `.panel` boxes sit on top with a translucent white background (`rgba(255,255,255,0.85)`) so the image shows through faintly; borders, text, pills, and every other element stay fully opaque.
 
 ## Known gaps / ideas
 

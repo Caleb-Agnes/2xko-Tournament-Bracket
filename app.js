@@ -1,12 +1,12 @@
 /* ---------- Config ---------- */
 
 // Apps Script web app URL (the /exec one, without ?page=admin)
-const API_URL = 'PASTE_YOUR_APPS_SCRIPT_EXEC_URL_HERE';
+const API_URL = 'https://script.google.com/macros/s/AKfycbxwSkXVrG8UD--_uZ6iDoYGblB_W8OftwbU2a34d5Isqwsstybwm79xCKVyGloZWsTg/exec';
 const POLL_MS = 5000;
 
-// Avatars: put images in /avatars named after the player in lowercase, e.g. avatars/caleb.png
+// Avatars: put images in /assets/avatars named after the player in lowercase, e.g. assets/avatars/caleb.png
 // Missing images fall back to the player's initial.
-const AVATAR_DIR = 'avatars/';
+const AVATAR_DIR = 'assets/avatars/';
 const AVATAR_EXT = '.png';
 
 // Offline testing: add ?mock=round-robin, ?mock=bracket or ?mock=complete to the URL
@@ -125,7 +125,7 @@ function renderSeeding() {
     ${pill(m.p1, resultClass(m, m.p1))}<span class="vs">vs</span>${pill(m.p2, resultClass(m, m.p2))}
   </div>`;
 
-  let html = `<h2>Round robin seeding</h2><div class="seeding-grid">`;
+  let html = `<div class="seeding-grid">`;
   if (!finished) {
     html += `<div class="col-next"><h3>Next matches</h3>${next.map(rrMatch).join('') || '<p class="empty-msg">No matches left.</p>'}</div>`;
   }
@@ -183,7 +183,7 @@ function renderBracket() {
     <h3>${title}</h3><div class="slots">${ids.map(bMatch).join('')}</div>
   </div>`;
 
-  let html = `<h2>Bracket</h2><div class="bracket-scroll"><div class="board"><svg></svg>`;
+  let html = `<div class="bracket-scroll"><div class="board"><svg></svg>`;
   UPPER_COLS.forEach(([t, ids], i) => { html += column(t, ids, i + 1, 1); });
   LOWER_COLS.forEach(([t, ids], i) => { html += column(t, ids, i + 1, 2); });
   html += `<div class="round-col gf-col"><h3>Grand final</h3><div class="slots"><div>
