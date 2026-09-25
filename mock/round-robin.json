@@ -1,0 +1,415 @@
+{
+ "updated": "2026-09-25T17:28:30.457Z",
+ "phase": "round-robin",
+ "champion": null,
+ "standings": [
+  {
+   "rank": 1,
+   "player": "Diana",
+   "wins": 2,
+   "losses": 0,
+   "played": 2
+  },
+  {
+   "rank": 2,
+   "player": "Sander",
+   "wins": 2,
+   "losses": 0,
+   "played": 2
+  },
+  {
+   "rank": 3,
+   "player": "Maks",
+   "wins": 2,
+   "losses": 1,
+   "played": 3
+  },
+  {
+   "rank": 4,
+   "player": "Caleb",
+   "wins": 2,
+   "losses": 1,
+   "played": 3
+  },
+  {
+   "rank": 5,
+   "player": "Nam",
+   "wins": 2,
+   "losses": 1,
+   "played": 3
+  },
+  {
+   "rank": 6,
+   "player": "Alec",
+   "wins": 1,
+   "losses": 2,
+   "played": 3
+  },
+  {
+   "rank": 7,
+   "player": "Noah",
+   "wins": 0,
+   "losses": 3,
+   "played": 3
+  },
+  {
+   "rank": 8,
+   "player": "Jesper",
+   "wins": 0,
+   "losses": 3,
+   "played": 3
+  }
+ ],
+ "ties": [],
+ "roundRobin": [
+  {
+   "key": 2,
+   "num": 1,
+   "round": 1,
+   "p1": "Caleb",
+   "p2": "Noah",
+   "winner": "Caleb"
+  },
+  {
+   "key": 3,
+   "num": 2,
+   "round": 1,
+   "p1": "Sander",
+   "p2": "Jesper",
+   "winner": "Sander"
+  },
+  {
+   "key": 4,
+   "num": 3,
+   "round": 1,
+   "p1": "Diana",
+   "p2": "Maks",
+   "winner": "Diana"
+  },
+  {
+   "key": 5,
+   "num": 4,
+   "round": 1,
+   "p1": "Alec",
+   "p2": "Nam",
+   "winner": "Nam"
+  },
+  {
+   "key": 6,
+   "num": 5,
+   "round": 2,
+   "p1": "Caleb",
+   "p2": "Jesper",
+   "winner": "Caleb"
+  },
+  {
+   "key": 7,
+   "num": 6,
+   "round": 2,
+   "p1": "Maks",
+   "p2": "Noah",
+   "winner": "Maks"
+  },
+  {
+   "key": 8,
+   "num": 7,
+   "round": 2,
+   "p1": "Sander",
+   "p2": "Nam",
+   "winner": "Sander"
+  },
+  {
+   "key": 9,
+   "num": 8,
+   "round": 2,
+   "p1": "Diana",
+   "p2": "Alec",
+   "winner": "Diana"
+  },
+  {
+   "key": 10,
+   "num": 9,
+   "round": 3,
+   "p1": "Caleb",
+   "p2": "Maks",
+   "winner": "Maks"
+  },
+  {
+   "key": 11,
+   "num": 10,
+   "round": 3,
+   "p1": "Nam",
+   "p2": "Jesper",
+   "winner": "Nam"
+  },
+  {
+   "key": 12,
+   "num": 11,
+   "round": 3,
+   "p1": "Alec",
+   "p2": "Noah",
+   "winner": "Alec"
+  },
+  {
+   "key": 13,
+   "num": 12,
+   "round": 3,
+   "p1": "Sander",
+   "p2": "Diana",
+   "winner": ""
+  },
+  {
+   "key": 14,
+   "num": 13,
+   "round": 4,
+   "p1": "Caleb",
+   "p2": "Nam",
+   "winner": ""
+  },
+  {
+   "key": 15,
+   "num": 14,
+   "round": 4,
+   "p1": "Alec",
+   "p2": "Maks",
+   "winner": ""
+  },
+  {
+   "key": 16,
+   "num": 15,
+   "round": 4,
+   "p1": "Diana",
+   "p2": "Jesper",
+   "winner": ""
+  },
+  {
+   "key": 17,
+   "num": 16,
+   "round": 4,
+   "p1": "Sander",
+   "p2": "Noah",
+   "winner": ""
+  },
+  {
+   "key": 18,
+   "num": 17,
+   "round": 5,
+   "p1": "Caleb",
+   "p2": "Alec",
+   "winner": ""
+  },
+  {
+   "key": 19,
+   "num": 18,
+   "round": 5,
+   "p1": "Diana",
+   "p2": "Nam",
+   "winner": ""
+  },
+  {
+   "key": 20,
+   "num": 19,
+   "round": 5,
+   "p1": "Sander",
+   "p2": "Maks",
+   "winner": ""
+  },
+  {
+   "key": 21,
+   "num": 20,
+   "round": 5,
+   "p1": "Jesper",
+   "p2": "Noah",
+   "winner": ""
+  },
+  {
+   "key": 22,
+   "num": 21,
+   "round": 6,
+   "p1": "Caleb",
+   "p2": "Diana",
+   "winner": ""
+  },
+  {
+   "key": 23,
+   "num": 22,
+   "round": 6,
+   "p1": "Sander",
+   "p2": "Alec",
+   "winner": ""
+  },
+  {
+   "key": 24,
+   "num": 23,
+   "round": 6,
+   "p1": "Nam",
+   "p2": "Noah",
+   "winner": ""
+  },
+  {
+   "key": 25,
+   "num": 24,
+   "round": 6,
+   "p1": "Maks",
+   "p2": "Jesper",
+   "winner": ""
+  },
+  {
+   "key": 26,
+   "num": 25,
+   "round": 7,
+   "p1": "Caleb",
+   "p2": "Sander",
+   "winner": ""
+  },
+  {
+   "key": 27,
+   "num": 26,
+   "round": 7,
+   "p1": "Diana",
+   "p2": "Noah",
+   "winner": ""
+  },
+  {
+   "key": 28,
+   "num": 27,
+   "round": 7,
+   "p1": "Alec",
+   "p2": "Jesper",
+   "winner": ""
+  },
+  {
+   "key": 29,
+   "num": 28,
+   "round": 7,
+   "p1": "Nam",
+   "p2": "Maks",
+   "winner": ""
+  }
+ ],
+ "seeds": [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+ ],
+ "bracketStarted": false,
+ "bracket": [
+  {
+   "key": "UQF1",
+   "name": "Quarter-final 1",
+   "section": "upper",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "UQF2",
+   "name": "Quarter-final 2",
+   "section": "upper",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "UQF3",
+   "name": "Quarter-final 3",
+   "section": "upper",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "UQF4",
+   "name": "Quarter-final 4",
+   "section": "upper",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "USF1",
+   "name": "Upper semi-final 1",
+   "section": "upper",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "USF2",
+   "name": "Upper semi-final 2",
+   "section": "upper",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "LR1A",
+   "name": "Lower round 1 A",
+   "section": "lower",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "LR1B",
+   "name": "Lower round 1 B",
+   "section": "lower",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "UF",
+   "name": "Upper final",
+   "section": "upper",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "LR2A",
+   "name": "Lower round 2 A",
+   "section": "lower",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "LR2B",
+   "name": "Lower round 2 B",
+   "section": "lower",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "LR3",
+   "name": "Lower round 3",
+   "section": "lower",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "LF",
+   "name": "Lower final",
+   "section": "lower",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  },
+  {
+   "key": "GF",
+   "name": "Grand final",
+   "section": "final",
+   "p1": "",
+   "p2": "",
+   "winner": ""
+  }
+ ]
+}

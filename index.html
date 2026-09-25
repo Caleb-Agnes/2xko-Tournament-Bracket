@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2XKO tourney</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>2XKO tourney</h1>
+    <p id="status" class="status">Loading results…</p>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" data-tab="seeding" aria-controls="seeding">Seeding</button>
+    <button class="tab" role="tab" data-tab="bracket" aria-controls="bracket">Bracket</button>
+  </nav>
+
+  <main>
+    <section id="seeding" class="panel" role="tabpanel"></section>
+    <section id="bracket" class="panel" role="tabpanel" hidden></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
